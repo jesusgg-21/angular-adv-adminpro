@@ -1,16 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { MultiDataSet, Label, Color } from 'ng2-charts';
 
 @Component({
-  selector: 'app-graica1',
+  selector: 'app-grafica1',
   templateUrl: './graica1.component.html',
-  styles: [
-  ]
+  styleUrls: []
 })
-export class Graica1Component implements OnInit {
+export class Graica1Component  {
 
-  constructor() { }
+  label1= ['label-1','label-2','label-3'];
+  label2= ['label-1','label-2','label-3'];
+  label3= ['label-1','label-2','label-3'];
+  label4= ['label-1','label-2','label-3'];
 
-  ngOnInit(): void {
-  }
+  data1 = [300, 450, 90];
+  data2 = [250, 320, 280];
+  data3 = [410, 250, 333];
+  data4 = [600, 150, 460];
 
 }
